@@ -74,13 +74,13 @@
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
-                              <Component id="btnUsuDelete" linkSize="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnUsuAdicionar" linkSize="1" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
                               <Component id="btnUsuRead" linkSize="1" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
                               <Component id="btnUsuUpdate" linkSize="1" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
-                              <Component id="jButton3" linkSize="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnUsuDelete" linkSize="1" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -133,8 +133,8 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="btnUsuRead" linkSize="2" min="-2" max="-2" attributes="0"/>
                   <Component id="btnUsuUpdate" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="jButton3" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="btnUsuDelete" linkSize="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnUsuDelete" linkSize="2" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnUsuAdicionar" linkSize="2" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="105" max="-2" attributes="0"/>
           </Group>
@@ -229,7 +229,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnUsuUpdateActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton3">
+    <Component class="javax.swing.JButton" name="btnUsuDelete">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/br/com/infox/icones/excluir1.png"/>
@@ -243,10 +243,10 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnUsuDeleteActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btnUsuDelete">
+    <Component class="javax.swing.JButton" name="btnUsuAdicionar">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/br/com/infox/icones/adicionar1.png"/>
@@ -260,7 +260,7 @@
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnUsuDeleteActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnUsuAdicionarActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel7">
