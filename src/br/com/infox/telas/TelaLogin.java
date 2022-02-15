@@ -33,7 +33,7 @@ public class TelaLogin extends javax.swing.JFrame {
             if (rs.next()) {
                 // A linha abaixo obtem o conteúdo da tabela usuário campo perfil
                 String perfil = rs.getString(6);
-                System.out.println(perfil);
+                // teste---> System.out.println(perfil);
                 //a estrutura abaixo faz o tratamento do perfil do usuário
                 if (perfil.equals("admin")) {
                     TelaPrincipal principal = new TelaPrincipal();
@@ -63,6 +63,7 @@ public class TelaLogin extends javax.swing.JFrame {
             }
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e);
+            
         }
     }
 
@@ -72,7 +73,7 @@ public class TelaLogin extends javax.swing.JFrame {
     public TelaLogin() {
         initComponents();
         conexao = ModuloConexao.conector();
-        System.out.println("teste de coneão: " + conexao);
+       //teste--> System.out.println("teste de coneão: " + conexao);
 
         if (conexao != null) {
             lblStatus.setIcon(new javax.swing.ImageIcon(getClass()
